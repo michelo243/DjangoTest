@@ -6,6 +6,7 @@ admin.autodiscover()
 
 urlpatterns = [
     # Examples:
+    # i have not use the mvc yet here
     # url(r'^$', 'blog.views.home', name='home'),
     # url(r'^blog/', include('blog.urls')),
 
