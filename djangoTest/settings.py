@@ -23,14 +23,15 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-ut9_^v%0#5j2fhg8mf5v8km9q-vuy(ct3_i)kdn^l1_0n^)ji%'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['localhost', '127.0.0.1']
 
 
 # Application definition
 
 INSTALLED_APPS = [
+    'blogapp',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
